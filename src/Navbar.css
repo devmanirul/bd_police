@@ -1,0 +1,42 @@
+.navArea {
+    background-color: #AD1D23;
+}
+
+.navArea .container {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navArea .container .left {
+    display: flex;
+    flex-direction: row;
+}
+.navArea .container .left a {
+    padding: 10px 0;
+    font-family: "Pragati Narrow", sans-serif;
+    padding-right: 10px;
+    
+}
+.navArea .container .left a:hover {
+    background-color: #131b43;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all ease-in-out 300ms;
+}
+
+.navArea .container .right .icon {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navArea .container .right:hover {
+    background-color: #131b43;
+    padding: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 300ms;
+}

@@ -1,0 +1,50 @@
+.TopHeader {
+    background: linear-gradient(-145deg, rgba(255, 255, 255, 0.0)10%, rgba(255, 255, 255, 0.2)20%, rgba(19, 27, 67, 1)70%),
+    linear-gradient(145deg, rgba(150, 150, 255, 0.0)80%, rgba(60, 111, 162, 0.8)20%),
+    linear-gradient(125deg, rgba(255, 255, 255, 0.0)70%, rgba(60, 111, 190, 0.7)30%),
+    linear-gradient(-200deg, rgba(60, 111, 180, 0.9)60%, rgba(60, 111, 190, 0.8)40%);
+        
+    padding: 10px 0;
+    width: 100%;
+    
+}
+.TopHeader .container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     
+}
+.TopHeader .container .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.TopHeader .container .left .img {
+    width: 80%;
+}
+.TopHeader .mid{
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.TopHeader .right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+    width: 100%;
+}
+.TopHeader .right .select{
+    padding: 5px;
+    outline: none;
+}
+.TopHeader .right .e_service {
+    height: 70px;
+}
