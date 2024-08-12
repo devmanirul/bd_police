@@ -16,7 +16,7 @@
     flex-direction: row;
 }
 .navArea .container .left a {
-    padding: 10px 0;
+    padding: 5px 0;
     font-family: "Pragati Narrow", sans-serif;
     padding-right: 10px;
     
@@ -35,7 +35,7 @@
 }
 .navArea .container .right:hover {
     background-color: #131b43;
-    padding: 10px 0;
+    padding: 5px 0;
     padding-left: 10px;
     padding-right: 10px;
     transition: 300ms;
