@@ -1,7 +1,8 @@
 import "./Home.css";
 import TopHeader from "./TopHeader";
-import Navbar from "./Navbar";
+import Navbar from "./Carojol";
 import Banner from "./Banner";
+import Carojol from "./Carojol";
 function Home() {
   return (
     <>
@@ -11,6 +12,8 @@ function Home() {
       <Navbar />
       {/* Banner */}
       <Banner />
+      {/* Carojol */}
+      <Carojol/>
     </>
   );
 }

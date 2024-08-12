@@ -1,0 +1,27 @@
+.Carojol {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.Carojol .CarojolOne{
+    position: relative;
+}
+
+.Carojol .CarojolOne .igpSpece {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 100%;
+}
+.Carojol .CarojolTwo{
+    position: relative;
+}
+
+.Carojol .CarojolTwo .igpAddress{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 100%;
+}
