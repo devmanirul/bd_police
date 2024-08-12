@@ -1,0 +1,31 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner .container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: auto;
+}
+.banner .container .left {
+    width: 80%;
+    height: 300px;
+}
+
+.banner .container .right{
+    width: 20%;
+    background-color: #131B43;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+}
+.banner .container .right .igpImg{
+    height: 250px;
+    border-radius: 50%;
+}
