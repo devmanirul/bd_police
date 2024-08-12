@@ -5,27 +5,56 @@
 }
 
 .banner .container {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     max-width: 1280px;
     margin: auto;
 }
 .banner .container .left {
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 350px;
+     
 }
 
+.banner .container .left .imgLeft{
+    height: 350px;
+    width: 100%;
+}
 .banner .container .right{
-    width: 20%;
+    width: 30%;
     background-color: #131B43;
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
+    gap: 15px;
     color: white;
 }
 .banner .container .right .igpImg{
-    height: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+}
+
+.banner .container .right .igpName {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.banner .container .right .igpMassege {
+    padding: 5px 8px;
+    border-radius: 12px;
+    background-color: #AF1D25;
+    font-family: "Pragati Narrow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner .container .right .igpMassege:hover {
+    background-color: #131B43;
 }

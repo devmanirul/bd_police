@@ -9,18 +9,21 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .navArea .container .left {
     display: flex;
     flex-direction: row;
 }
+
 .navArea .container .left a {
     padding: 5px 0;
     font-family: "Pragati Narrow", sans-serif;
     padding-right: 10px;
-    
+
 }
+
 .navArea .container .left a:hover {
     background-color: #131b43;
     padding-left: 8px;
@@ -33,6 +36,7 @@
     font-size: 20px;
     font-weight: bold;
 }
+
 .navArea .container .right:hover {
     background-color: #131b43;
     padding: 5px 0;
