@@ -3,25 +3,40 @@
     margin: auto;
 }
 
-.Carojol .CarojolOne{
-    position: relative;
+.Carojol .container {
+position: relative;
 }
 
-.Carojol .CarojolOne .igpSpece {
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
-    background-color: rgba(0, 0, 0, 0.13);
+.Carojol .container .CarojolOne{
+
+}
+
+.Carojol .container .CarojolOne .IgpImage {
     width: 100%;
 }
-.Carojol .CarojolTwo{
-    position: relative;
+
+.Carojol .container .CarojolOne .igpSpece {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.523);
+    width: 100%;
+    color: white;
+    padding: 5px;
+     
+}
+.Carojol .container .CarojolTwo{
+    
 }
 
-.Carojol .CarojolTwo .igpAddress{
+.Carojol .container .CarojolTwo .IgpImage {
+    width: 100%;
+}
+
+.Carojol .CarojolTwo .slide .igpAddress{
     position: absolute;
     bottom: 10px;
     left: 5px;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.523);
     width: 100%;
 }

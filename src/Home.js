@@ -1,6 +1,6 @@
 import "./Home.css";
 import TopHeader from "./TopHeader";
-import Navbar from "./Carojol";
+import Navbar from "./Navbar";
 import Banner from "./Banner";
 import Carojol from "./Carojol";
 function Home() {
