@@ -1,21 +1,27 @@
 .Carojol {
-    max-width: 1280px;
-    margin: auto;
+    margin-top: 15px;
 }
 
 .Carojol .container {
-position: relative;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .Carojol .container .CarojolOne{
 
 }
 
-.Carojol .container .CarojolOne .IgpImage {
-    width: 100%;
+.Carojol .container .CarojolOne .slide {
+    height: 320px;
+    position: relative;
 }
 
-.Carojol .container .CarojolOne .slide2 .igpSpece {
+.Carojol .container .CarojolOne .slide .IgpImage {
+    width: 100%;
+    height: 100%;
+}
+
+.Carojol .container .CarojolOne .slide .igpSpece {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -23,21 +29,5 @@ position: relative;
     width: 100%;
     color: white;
     padding: 5px;
-}
-.Carojol .container .CarojolTwo{
-    
-}
-
-.Carojol .container .CarojolTwo .IgpImage {
-    width: 100%;
-}
-
-.Carojol .container .CarojolTwo .slide2 .igpAddress{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.523);
-    width: 100%;
-    color: white;
-    padding: 5px;
+     
 }
