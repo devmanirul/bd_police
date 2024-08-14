@@ -4,11 +4,20 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { RiArrowLeftWideLine } from "react-icons/ri";
 import { RiArrowRightWideLine } from "react-icons/ri";
+import { useRef } from "react";
 
 
 function Carojol() {
+    let sliderRef = useRef(null);
+
+  const next = () => {
+    sliderRef.slickNext();
+  };
+  const previous = () => {
+    sliderRef.slickPrev();
+  };
     var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -17,7 +26,9 @@ function Carojol() {
     return (
         <div className="Carojol">
             <div className="container">
-                <Slider className="CarojolOne" {...settings}>
+                <Slider className="CarojolOne" ref={slider => {
+          sliderRef = slider;
+        }} {...settings}>
                     {/* slide1*/}
                     <div className="slide">
                             <img
@@ -40,11 +51,11 @@ function Carojol() {
                 {/* slider button */}
                 <div className="button-container">
                     {/* left arrow */}
-                    <button className="left">
+                    <button onClick={previous} className="left">
                          <RiArrowLeftWideLine />
                     </button>
                     {/* right arrow */}
-                    <button className="right">
+                    <button onClick={next} className="right">
                          <RiArrowRightWideLine />
                     </button>
                 </div>
