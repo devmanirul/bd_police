@@ -5,6 +5,7 @@
 .Carojol .container {
     max-width: 1280px;
     margin: auto;
+    position: relative;
 }
 
 .Carojol .container .CarojolOne{
@@ -29,5 +30,18 @@
     width: 100%;
     color: white;
     padding: 5px;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
      
 }
+.button-container .button {
+    background: none; 
+    border: none;
+    font-size: 45px;
+
+}
+.button-container .left {}
+.button-container .right {}
