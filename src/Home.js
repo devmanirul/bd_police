@@ -3,6 +3,7 @@ import TopHeader from "./TopHeader";
 import Navbar from "./Navbar";
 import Banner from "./Banner";
 import Carojol from "./Carojol";
+import ContentArea from "./ContentArea";
 function Home() {
   return (
     <>
@@ -13,7 +14,9 @@ function Home() {
       {/* Banner */}
       <Banner />
       {/* Carojol */}
-      <Carojol/>
+      <Carojol />
+      {/* content area */}
+      <ContentArea/> 
     </>
   );
 }
