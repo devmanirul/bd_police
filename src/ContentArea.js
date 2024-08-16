@@ -1,6 +1,6 @@
 import './ContentArea.css';
 import LeftContentArea from './LeftContentArea';
-import RightContentArea from './Right.ContentArea';
+import RightContentArea from './RightContentArea';
 
 const ContentArea = () => {
     return (

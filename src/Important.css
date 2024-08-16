@@ -1,0 +1,34 @@
+.important-area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.important-area .important-links {
+    width: 35%;
+    
+}
+
+.important-area .important-links .card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(45deg, #131b43, #242c54, #2aabd2);
+    border: 1px solid white;
+}
+
+.important-area .important-links .card1:hover{
+    border-left: 5px solid red;
+}
+.important-area .important-links .card1 .imgcard1 {
+    box-shadow: 1px 0 2px #909090;
+    border-radius: 0 100px 100px 0;
+    padding: 5px;
+    background-color: black;
+}
+.important-area .important-links p {
+ 
+}
+.important-area .notice-board {
+    width: 65%;
+}

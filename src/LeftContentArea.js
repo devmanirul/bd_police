@@ -1,7 +1,14 @@
+import Important from "./Important";
 import "./LeftContentArea.css";
 
 const LeftContentArea = () => {
-  return <h1>Left area</h1>;
+    return (
+        <div className="left-area">
+            {/* important */}
+            <Important />
+            {/* items */}
+      </div>
+  )
 };
 
 export default LeftContentArea;
