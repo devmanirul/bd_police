@@ -16,7 +16,7 @@ function Home() {
       {/* Carojol */}
       <Carojol />
       {/* content area */}
-      <ContentArea/> 
+      <ContentArea /> 
     </>
   );
 }
