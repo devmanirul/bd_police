@@ -31,7 +31,7 @@ const Important = () => {
                 <ImportantLinkItems logo={Achivement} title={"Achievement & Success"} />
             </div>
             {/* Notice Board */}
-            <div className="notice-board">Notice Board</div>
+             
         </div>
     )
 }
