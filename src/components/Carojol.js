@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { RiArrowLeftWideLine } from "react-icons/ri";
 import { RiArrowRightWideLine } from "react-icons/ri";
 import { useRef } from "react";
+import SliderContantData from "../sliderData";
 
 
 function Carojol() {
@@ -24,43 +25,50 @@ function Carojol() {
     slidesToScroll: 1,
   };
     return (
-        <div className="Carojol">
-            <div className="container">
-                <Slider className="CarojolOne" ref={slider => {
-          sliderRef = slider;
-        }} {...settings}>
-                    {/* slide1*/}
-                    <div className="slide">
-                            <img
-                            src="https://www.police.gov.bd/storage/upload/gallery/QBYZ7c6P75XVQ8u2MuhxFKCTXWYqzt9GhBR4nsyU.jpg"
-                            alt=""
-                            className="IgpImage"
-                                />
-                            <p className="igpSpece">মহামান্য রাষ্ট্রপতির সাথে নবাগত আইজিপি মহোদয়  সাক্ষাৎ করেন।</p> 
-                    </div> 
-                    {/* slide2 */}
-                    <div className="slide">
+      <div className="Carojol">
+        <div className="container">
+          <Slider
+            className="CarojolOne"
+            ref={(slider) => {
+              sliderRef = slider;
+            }}
+            {...settings}
+          >
+            {/* slide1*/}
+            {SliderContantData.map((item) => (
+              <div key={item.id} className="slide">
+                <img
+                  src={item.img}
+                  alt=""
+                  className="IgpImage"
+                />
+                <p className="igpSpece">{item.title}</p>
+              </div>
+            ))}
+
+            {/* slide2 */}
+            {/* <div className="slide">
                             <img
                             src="https://www.police.gov.bd/storage/upload/gallery/kdXeIE3xgKUnP4b4JzJb0PVDSwhPLIit3j3ernoR.jpg"
                             alt=""
                             className="IgpImage"
                                 />
                             <p className="igpSpece">নভাগত আইজিপি মহোদয়ের প্রেস বিজ্ঞপ্তি</p>
-                    </div>
-                </Slider>
-                {/* slider button */}
-                <div className="button-container">
-                    {/* left arrow */}
-                    <button onClick={previous} className="left">
-                         <RiArrowLeftWideLine />
-                    </button>
-                    {/* right arrow */}
-                    <button onClick={next} className="right">
-                         <RiArrowRightWideLine />
-                    </button>
-                </div>
-            </div>
+                    </div> */}
+          </Slider>
+          {/* slider button */}
+          <div className="button-container">
+            {/* left arrow */}
+            <button onClick={previous} className="left">
+              <RiArrowLeftWideLine />
+            </button>
+            {/* right arrow */}
+            <button onClick={next} className="right">
+              <RiArrowRightWideLine />
+            </button>
+          </div>
         </div>
+      </div>
     );
 }
 

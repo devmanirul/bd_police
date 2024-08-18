@@ -1,14 +1,14 @@
 import "./ImportantLinkRight.css";
 import "./RightContentArea.css";
 import ImportantLinkRight from "./ImportantLinkRight";
-import press from "./assets/images/Press.png";
-import Recruitment from "./assets/images/Recruitment.png";
-import procurement from "./assets/images/Procurement.png";
-import legal from "./assets/images/Legal.png";
-import detective from "./assets/images/Detective.png";
-import diabetis from "./assets/images/Diabetis.png";
-import exsm from "./assets/images/Exam.jpeg";
-import Accident from "./assets/images/Accident.jpeg";
+import press from "../assets/images/Press.png";
+import Recruitment from "../assets/images/Recruitment.png";
+import procurement from "../assets/images/Procurement.png";
+import legal from "../assets/images/Legal.png";
+import detective from "../assets/images/Detective.png";
+import diabetis from "../assets/images/Diabetis.png";
+import exsm from "../assets/images/Exam.jpeg";
+import Accident from "../assets/images/Accident.jpeg";
 
 const RightContentArea = () => {
   return (

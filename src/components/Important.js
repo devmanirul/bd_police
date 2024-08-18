@@ -1,13 +1,13 @@
 import "./Important.css";
 import ImportantLinkItems from "./ImportantLinkItems";
-import clearance from "./assets/images/clearance.png"
-import helpline from "./assets/images/helpline.png";
-import expatriate from "./assets/images/Expatriate.png";
-import opinion from "./assets/images/Opinion.png";
-import Hotline from "./assets/images/Hotline.png";
-import PIMS from "./assets/images/PIMS.png";
-import BPWN from "./assets/images/BPWN.png";
-import Achivement from "./assets/images/Achievement.png";
+import clearance from "../assets/images/clearance.png"
+import helpline from "../assets/images/helpline.png";
+import expatriate from "../assets/images/Expatriate.png";
+import opinion from "../assets/images/Opinion.png";
+import Hotline from "../assets/images/Hotline.png";
+import PIMS from "../assets/images/PIMS.png";
+import BPWN from "../assets/images/BPWN.png";
+import Achivement from "../assets/images/Achievement.png";
 const Important = () => {
     return (
         <div className="important-area">
