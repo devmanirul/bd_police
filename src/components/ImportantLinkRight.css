@@ -4,15 +4,18 @@
     gap: 20px;
 }
 
+.important-links-right {
+    width: 100%;
+}
+
 .important-links-right .item {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
+ 
     gap: 10px;
     background: linear-gradient(45deg, #131b43, #242c54, #2aabd2);
     border: 1px solid white;
-    width: 100%;
 }
 
 .important-links-right .item:hover {
@@ -32,10 +35,4 @@
     border-radius: 0 100px 100px 0;
     padding: 5px;
     background-color: black;
-}
-.important-area .important-links p {
- 
-}
-.important-area .notice-board {
-    width: 65%;
 }
