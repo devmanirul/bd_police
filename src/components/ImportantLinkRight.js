@@ -1,10 +1,11 @@
 import "./ImportantLinkRight.css";
+
 const ImportantLinkRight = ({ title, logo }) => {
   return (
     <div className="important-links-right">
       <a href="" className="item">
         <div className="img-container">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className="img-logo" />
         </div>
         <p>{title}</p>
       </a>

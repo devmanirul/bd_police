@@ -1,11 +1,16 @@
+
+
+
 import "./ImportantLinkItems.css";
 
-const ImportantLinkItems = ({ logo, title }) => {
+const ImportantLinkItems = ({ title, logo }) => {
   return (
-    <a href="#" className="card1">
+    <div className="">
+      <a href="#" className="card1">
       <img src={logo} alt="" className="imgcard1" />
       <p className="">{title}</p>
     </a>
+    </div>
   );
 };
 

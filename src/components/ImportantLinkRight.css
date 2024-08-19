@@ -1,32 +1,41 @@
-.important-links-right {
-    width: 100%;
+.important-area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .important-links-right .item {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     background: linear-gradient(45deg, #131b43, #242c54, #2aabd2);
-    border: 1px solid white
+    border: 1px solid white;
+    width: 100%;
 }
 
 .important-links-right .item:hover {
     border-right: 5px solid red;
 }
 
-.important-links-right .item .img-container {
-    background-color: black;
+.important-links-right .item .img-container .img-logo {
+    box-shadow: 1px 0 2px #909090;
     border-radius: 100px 0 0 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
-    box-shadow: 0 2px 2px #909090;
+    padding: 5px;
+    background-color: black;
+    height: 50px;
 }
 
-.important-links-right .item .img-container img {
-    width: 100%;
-    padding: 2px;
-    border-radius: 50px 0 0 50px;
+.important-area .important-links .card1 .imgcard1 {
+    box-shadow: 1px 0 2px #909090;
+    border-radius: 0 100px 100px 0;
+    padding: 5px;
+    background-color: black;
+}
+.important-area .important-links p {
+ 
+}
+.important-area .notice-board {
+    width: 65%;
 }

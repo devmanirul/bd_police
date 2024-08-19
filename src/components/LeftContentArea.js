@@ -1,4 +1,4 @@
-import Important from "./Important";
+import Important from "./ImportantLinkLeft";
 import "./LeftContentArea.css";
 
 const LeftContentArea = () => {
