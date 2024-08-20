@@ -77,7 +77,7 @@ const importantLinkRightData = [
     title: "Exam Results",
   },
   {
-    id: 8,
+    id: 7,
     img: "https://www.police.gov.bd/storage/upload/announcement/OPMKYwuFD9fKrGESoCgpWC5yX1Tfmco1fECypo1e.jpeg",
     title: "Accident Info",
   },
