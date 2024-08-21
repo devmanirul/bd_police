@@ -1,7 +1,7 @@
 import "./ServiceCard.css";
 import { BiSolidRightArrow } from "react-icons/bi";
-
 import servicesList from "../../../ServiceList";
+
 const ServiceCard = () => {
   return (
     <div className="service-grid">

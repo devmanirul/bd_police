@@ -84,4 +84,5 @@ const servicesList = [
     list: ["ফটো গ্যালারী", "ভিডিও গ্যালারি"],
   },
 ];
+
 export default servicesList;
