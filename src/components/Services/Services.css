@@ -1,25 +1,29 @@
 .services {
     background-color: #f0f0f0;
-    padding: 0 15px;
+    padding: 0 20px;
+    width: 100%;
     margin-top: 20px;
+}
+
+.services .service-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-top: 15px;
 }
 
 .services .service-more-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: auto;
+    margin: 0 0 10px 0;
 }
 
-.services .service-more-button .more-button {
+.services .more-button {
     background-color: black;
     color: white;
     text-decoration: none;
     padding: 4px 8px;
     text-align: center;
 }
-
-.services .service-card-container {
-    margin-top: 20px;
-}
-

@@ -1,29 +1,28 @@
 import "./ServiceCard.css";
 import { BiSolidRightArrow } from "react-icons/bi";
-import servicesList from "../../../ServiceList";
 
-const ServiceCard = () => {
+const ServiceCard = ({ title, img, list }) => {
   return (
-    <div className="service-grid">
-      {servicesList.map((item) => (
-        <div key={item.id} className="service-card">
-          <h3 className="card-title">{item.title}</h3>
-          <div className="service-card-content">
-            <div className="left">
-              <img src={item.img} />
-            </div>
-            <div className="right">
-              {/* item 1 */}
+    <div className="">
+      <div className="service-card">
+        <h3 className="card-title">{title}</h3>
+        <div className="service-card-content">
+          <div className="left">
+            <img src={img} />
+          </div>
+          <div className="right">
+            {/* service 1 */}
+            {list.map((item) => (
               <div className="link-container">
                 <BiSolidRightArrow />
                 <a href="#" className="">
-                  {item.list}
+                  {item}
                 </a>
               </div>
-            </div>
+            ))}
           </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 };

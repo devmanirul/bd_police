@@ -5,13 +5,18 @@ import { importantLinkRightData } from "../importantLinkData";
 
 const RightContentArea = () => {
   return (
-    <div className="right-content-area">
-      {
-      importantLinkRightData.map(item => 
-        <ImportantLinkRight key={item.id} logo={item.img} title={item.title} />
-        )}
+    <div className="totalRight">
+      <div className="right-content-area">
+        {importantLinkRightData.map((item) => (
+          <ImportantLinkRight
+            key={item.id}
+            logo={item.img}
+            title={item.title}
+          />
+        ))}
+      </div>
       <div className="right-services">
-
+        
       </div>
     </div>
   );
