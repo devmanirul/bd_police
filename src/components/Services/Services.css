@@ -1,7 +1,25 @@
 .services {
-    padding: 0 10px 8px 10px;
+    background-color: #f0f0f0;
+    padding: 0 15px;
+    margin-top: 20px;
 }
 
-.services .more-services {
-    
+.services .service-more-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
 }
+
+.services .service-more-button .more-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.services .service-card-container {
+    margin-top: 20px;
+}
+

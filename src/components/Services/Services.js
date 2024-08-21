@@ -1,19 +1,19 @@
-import React from 'react'
+import ServiceCard from "./ServiceCard/ServiceCard";
 import "./Services.css";
-import ServiceCard from './ServiceCard/ServiceCard';
 
 const Services = () => {
   return (
     <section className="services">
-      <a href="#" className="more-services">
-        More
-      </a>
-      {/* Services card container */}
+      <div className="service-more-button">
+        <a href="#" className="more-button">
+          More
+        </a>
+      </div>
       <div className="service-card-container">
         <ServiceCard />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

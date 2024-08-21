@@ -1,6 +1,3 @@
-
-
-
 import "./ImportantLinkItems.css";
 
 const ImportantLinkItems = ({ title, logo }) => {

@@ -14,7 +14,7 @@
     flex-direction: row-reverse;
     align-items: center;
     gap: 10px;
-    background: linear-gradient(45deg, #131b43, #242c54, #2aabd2);
+    background: linear-gradient(45deg, #2aabd2, #131b43, #242c54);
     border: 1px solid white;
 }
 

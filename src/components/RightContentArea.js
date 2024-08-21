@@ -9,7 +9,10 @@ const RightContentArea = () => {
       {
       importantLinkRightData.map(item => 
         <ImportantLinkRight key={item.id} logo={item.img} title={item.title} />
-      )}
+        )}
+      <div className="right-services">
+
+      </div>
     </div>
   );
 };

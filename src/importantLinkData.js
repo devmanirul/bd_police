@@ -85,4 +85,4 @@ const importantLinkRightData = [
 
 export { importantLinkLeftData, importantLinkRightData };
 
-// ob
+// object akare hoile default dite hoi na
